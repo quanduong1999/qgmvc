@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    height: 127px;
+}
+
+.header-logo {
+    background: black;
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
+
+.header-logo-img {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.header-menu {
+    width: 86%;
+    background: black;
+    height: 100%;
+}
+
+.header-menu-top {
+    width: 100%;
+    height: 45%;
+    /* background:white; */
+    display: flex;
+    align-items: center;
+}
+
+.header-menu-top-left {width: 78%;}
+
+.header-menu-top-center {
+    width: 12%;
+}
+
+.header-menu-top-right {
+    width: 30%;
+}
+
+.header-menu-top-left-ul {
+    display: flex;
+}
+
+.header-menu-top-left-ul-li-a {
+    color: #fff;
+    font-size: 17px;
+    font-family: "ubuntu";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+}
+.header-menu-top-center {
+    color: #fff;
+    font-size: 17px;
+    font-family: "ubuntu";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right,#095fab 10%, #25abe8 50%, #57d75b 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+
+li.header-menu-top-left-ul-li {
+    margin-left: 25px;
+}
+/* menu categories */
+.header-menu-bottom {
+    width: 100%;
+    height: 55%;
+    /* background: blue; */
+    display: flex;
+
+}
+
+.header-menu-bottom-left {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu-bottom-right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cart_box_1 a {
+    color: white;
+    margin-left: 60px;
+}
+
+ul.memenu_skyblue {
+    display: flex;
+}
+
+li.memenu_skyblue_li {
+    margin-left: 50px;
+}
+
+/* search */
+/*btnsearch*/
+
+.input-search{
+    background-color: #333;
+    border: 2px ;
+    display: none;
+}
+
+input#q {
+    width: 222px !important;
+    height: 35px !important;
+    background: white !important;
+    color: black !important;
+}

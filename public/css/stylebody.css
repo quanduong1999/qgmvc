@@ -1,0 +1,134 @@
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .fb-chat-popup {
+    position: absolute;
+    right: 0px;
+    bottom: 70px;
+} */
+
+h5.block-title-name a {
+    color: black;
+}
+
+.block-title {
+    /* background: red; */
+    width: 100%;
+    border: 1px solid #ddd;
+    /* margin: 0.5em 0; */
+    padding: 0.7em 1em;
+    background-color: #080707;
+    height: 41px;
+}
+
+.feature-grids {
+    width: 100%;
+    /* display: flex; */
+    position: relative;
+    border: 1px solid #fff;
+    padding: 1em;
+    /* float: left; */
+}
+
+.col-md-3 {
+    width: 25%;
+    /* display: flex; */
+    float: left;
+}
+
+.col-md-3.feature-grid.jewel a img {
+    width: 90%;
+}
+
+.arrivals {
+    padding: 0.5em 0;
+}
+
+a.view-all-product {
+    text-decoration: none;
+    font-size: 1em;
+    color: #FFF;
+    font-weight: 700;
+    float: right;
+    /* padding: 0.4em 0.6em; */
+}
+
+h5.block-title-name {
+    /* margin: 6px 0 0; */
+    /* font-size: 1.3em; */
+    color: #FFF;
+    font-weight: 700;
+}
+
+.body_product {
+    display: block;
+}
+
+.featured {
+    width: 100%;
+    float: left;
+}
+
+.col-md-3.feature-grid.jewel {
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid; */
+    position: relative;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+}
+
+.viw {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    /* color: gray; */
+    /* display: none; */
+    background: #d8d3d3;
+    opacity: 0.8;
+    padding: 5px;
+}
+
+.arrival-info {
+    margin-top: 10px;
+}
+
+.arrival-info h4 {
+    margin-bottom: 10px;
+}
+
+.rsidebar.span_1_of_left {width: 24%;}
+
+img.img-responsive {
+    width: 100%;
+}
+
+.col-md-4.feature-grid.jewel {
+    width: 30%;
+    float: left !important;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+    margin-right: 3%;
+    text-align: center;
+}
+
+a.screenshot img {
+    width: 90%;
+}

@@ -1,0 +1,62 @@
+
+.section.group {
+    display: flex;
+}
+
+.container h3 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 20px;
+}
+
+.span_1_of_3 h4 {
+    font-size: 1.3em;
+    padding: 0.5em 0;
+    color: #00a0dc;
+    margin-top: 30px;
+}
+
+i.fa.fa-skype.pr-10 {
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="text"],.contact-form textarea{
+    padding: 10px;
+    display: block;
+    width: 98%;
+    border: none;
+    outline: none;
+    color: #464646;
+    font-size: 1.1em;
+    border: 1px solid rgba(85, 85, 85, 0.19);
+    -webkit-appearance:none;
+}
+
+.col-md-6.span_1_of_3 {
+    width: 35%;
+    padding-left: 20px;
+}
+
+.col-md-6.span_2_of_3 {
+    width: 65%;
+}
+
+.contact-form form div {
+    margin-bottom: 20px;
+}
+
+input.mybutton {
+    color: #00a0dc;
+    border: 2px solid #00a0dc;
+    text-transform: uppercase;
+    display: block;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    cursor: pointer;
+    width: 12%;
+    height: 40px;
+    margin: auto;
+}

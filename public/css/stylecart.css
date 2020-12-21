@@ -1,0 +1,83 @@
+table, th, td{
+    border:1px solid black;
+   
+}
+table{
+    border-collapse:collapse;
+     width: 100%;
+}
+
+.desc1.span_3_of_2 {
+    display: grid;
+}
+
+h4.item_name {
+    background: #717171;
+    color: white;
+}
+
+.item-list ul li {
+    list-style-type: none;
+}
+
+
+a.btn.btn-primary {
+    background: blue;
+    color: white;
+    padding: 10px;
+    width: 98px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+}
+
+.left-n {
+    display: grid;
+}
+
+span.pric1 {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+
+
+input.form-control.btn-primary {background: blue;
+    color: white;
+    padding: 10px;
+    width: 80px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    border: 0px;
+}
+
+.form-group {
+    position: relative;
+    display: flex;
+}
+
+.col-md-5.col-sm-12 {
+    margin: auto;
+    width: 100%;
+}
+
+input.form-control {
+    width: 35%;
+    height: 35px;
+    /* margin: auto; */
+    margin-bottom: 15px;
+}
+
+button.btn.btn-primary {
+    background: blue;
+    color: white;
+    padding: 10px;
+    width: 98px;
+    margin-bottom: 15px;
+    border-radius: 100px;
+    border: 0px;
+}
+
+.col-md-5.col-sm-12 h2 {
+    margin-top: 15px;
+}
